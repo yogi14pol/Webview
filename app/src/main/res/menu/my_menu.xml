@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itm1"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="go back"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/itm2"
+        android:icon="@drawable/ic_arrow_forward_black_24dp"
+        android:title="go Next"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itm3"
+        android:icon="@drawable/ic_settings_backup_restore_black_24dp"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+
+</menu>
